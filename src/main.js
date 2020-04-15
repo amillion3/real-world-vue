@@ -5,6 +5,9 @@ import store from "./store";
 import upperFirst from "lodash/upperFirst"
 import camelCase from "lodash/camelCase"
 
+// TO START SERVING LOCAL JSON DATA, RUN THIS:
+//  json-server --watch db.json
+
 // From Vue Docs, boilerplate code
 const requireComponent = require.context(
   // The relative path of the components folder
